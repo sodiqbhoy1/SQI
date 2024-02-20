@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 :root {
   --weight-1: 400;
   --weight-2: 500;
@@ -726,10 +725,17 @@ font-weight:var(--weight-3) ;
   .Address{
     padding: 10px;
 width: 210px;
-  
-    text-align: left;
+text-align: left;
   }
+.Address 
 
+.Address .fa-facebook-f{
+  background-color: transparent;
+  
+}
+.Address .fa-twitter{
+  background-color: transparent;
+  }
 .Address p {
   text-decoration: none;
   color: var(--color4);
