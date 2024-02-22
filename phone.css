@@ -290,12 +290,19 @@ width: 100px;
     }
   
   .conference{
-height: auto;
-height: 150px;
-width: 100%;
-position: relative;
-right: 710px;
-top: 80px;
+    display: none;
+}
+
+.conference-sm-screen{
+  background-image: url("images/conference_image_15.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+  position: relative;
+  right: 0;
+  top: 0;
+
 }
   
   .reasons{
@@ -490,4 +497,9 @@ top: 80px;
       display: flex;
       flex-direction: column;
     }
+}
+
+footer div{
+  font-size: 14px;
+  font-weight: 500;
 }
